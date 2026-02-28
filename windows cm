@@ -1,0 +1,31 @@
+display ip:
+ipconfig/displaydns
+
+remove ip every website visit:
+ipconfig/flushdns
+
+ipconfig /registerdns: Refresh DNS settings and register DNS names.
+
+ipconfig /release and ipconfig /renew: Release and renew your IP address.
+
+netsh winsock reset: Reset the network socket. 
+
+
+cmd; delete force any file
+del /f /s /q
+
+
+winget upgrade "name"
+winget upgrade --id Microsoft.PowerToys
+
+
+window version: winver
+
+docker requerment:
+cmd: wsl
+
+
+bios: shutdown /r /fw /t 1
+
+
+cmd : powercfg -duplicatescheme e9a42b02-d5df-448d-aa00-03f14749eb61
